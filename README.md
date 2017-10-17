@@ -16,3 +16,15 @@ The main differences with respect to that network are:
 - The code has been written in Python (2.7) and requires [Theano](http://deeplearning.net/software/theano/)
 - You should also have installed [scipy](https://www.scipy.org/)
 - (Optional) The code allows to load images in Matlab and Nifti formats. If you wish to use nifti formats you should install [nibabel](http://nipy.org/nibabel/) 
+
+
+
+
+### Known problems
+* In some computers I tried, when running in CPU, it complains about the type of some tensors. The work-around I have found is just to set some theano flags at the beginning of the scripts. Something like:
+
+```
+THEANO_FLAGS='floatX=float32' python ./networkTraining.py ./LiviaNET_Config.ini 0
+```
+
+You can contact me at: jose.dolz.upv@gmail.com
