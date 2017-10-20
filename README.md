@@ -22,7 +22,7 @@ The main differences with respect to that network are:
 
 ## Running the code
 
-Running the code actually works in the same way that LiviaNet. Just a reminder if you do not want to check the documentation from that net :):
+Running the code actually works in the same way that LiviaNet. Just a reminder if you do not want to check the documentation from that net :)
 
 ## Training
 
