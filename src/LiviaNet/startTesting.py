@@ -227,7 +227,7 @@ def segmentVolume(myNetworkModel,
         if roiNames_Test == 1:
             segmentationImage = segmentationImage*roi
 
-        if task == 1:
+        if task == 0:
             print(" ... Computing Dice scores: ")
             DiceArray = computeDice(segmentationImage,gtLabelsImage)
             for d_i in xrange(len(DiceArray)):
