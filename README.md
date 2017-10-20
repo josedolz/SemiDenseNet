@@ -11,7 +11,6 @@ IMPORTANT: This Net is not the one that best performed in the iSEG Challenge, bu
 <img src="https://github.com/josedolz/SemiDenseNet/blob/master/Images/SemiDenseNET.png" />
 <br>
 
-
 NOTE: The submission of this work is under review. If you use this code for your research, please consider citing the papers:
 
 - Dolz J, Desrosiers C, Ben Ayed I. "[3D fully convolutional networks for subcortical segmentation in MRI: A large-scale study."](http://www.sciencedirect.com/science/article/pii/S1053811917303324) NeuroImage (2017).
