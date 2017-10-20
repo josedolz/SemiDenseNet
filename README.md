@@ -73,7 +73,7 @@ where X denotes the last (or desired) epoch in which the model was saved.
 ### Versions
 - Version 1.0. 
   * October,20th. 2017
-    * Network process multi-modal data (so far only two-modalities) and fuses the learned features before the first fully convolution connected layer.
+    * Network processes multi-modal data (so far only two-modalities) and fuses the learned features before the first fully convolution connected layer.
 
 
 ### Known problems
