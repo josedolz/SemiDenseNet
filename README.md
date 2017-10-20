@@ -1,6 +1,10 @@
 # SemiDenseNet
 This repository contains the code of the network that we employed in the iSEG Grand MICCAI Challenge 2017, infant brain segmentation. This network extends out previous work in 3D fully convolutional neural network that was employed in our work: [3D fully convolutional networks for subcortical segmentation in MRI: A large-scale study](http://www.sciencedirect.com/science/article/pii/S1053811917303324), which can be found here : (https://github.com/josedolz/LiviaNET/).
 
+<br>
+<img src="https://github.com/josedolz/SemiDenseNet/blob/master/Images/brainModalities.png" />
+<br>
+
 IMPORTANT: This Net is not the one that best performed in the iSEG Challenge, but the one with an individual path per modality and a late fusion stage to merge learned features (See figure). In case you want to adapt this net to the best performing net, you should remove one of the paths and merge T1 and T2 modalities at the input of the network. 
 
 <br>
