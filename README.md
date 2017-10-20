@@ -23,6 +23,7 @@ The main differences with respect to that network are:
 - The code has been written in Python (2.7) and requires [Theano](http://deeplearning.net/software/theano/)
 - You should also have installed [scipy](https://www.scipy.org/)
 - (Optional) The code allows to load images in Matlab and Nifti formats. If you wish to use nifti formats you should install [nibabel](http://nipy.org/nibabel/) 
+- Since, as you might now, sharing medical data is not a good-practice, I did not include any sample in the corresponding folders. To make your experiments you must include your data in the repositories indicated in the config file (LiviaNET_Config.ini and LiviaNET_Segmentation.ini)
 
 ## Running the code
 
