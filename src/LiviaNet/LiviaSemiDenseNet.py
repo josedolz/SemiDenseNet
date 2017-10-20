@@ -52,12 +52,12 @@ import pdb
     
 #####################################################
 # ------------------------------------------------- #
-##  ##  ##  ##  ##   LIVIANET 3D   ##  ##  ##  ##  ##
+##  ##  ##  ## LIVIA-SemiDenseNET 3D   ##  ##  ##  ##
 # ------------------------------------------------- #
 #####################################################
 
 
-class LiviaNet3D(object):
+class LiviaSemiDenseNet3D(object):
     def __init__(self):
 
         # --- containers for Theano compiled functions ----
