@@ -26,13 +26,6 @@ LIVIA Department, ETS, Montreal.
 
 import pdb
 import numpy as np
-
-def calculateDiceCoefficient(predictedBinaryLabels, groundTruthBinaryLabels) :
-    unionCorrectlyPredicted = predictedBinaryLabels * groundTruthBinaryLabels
-    numberOfTruePositives = np.sum(unionCorrectlyPredicted)
-    numberOfGtPositives = np.sum(groundTruthBinaryLabels)
-    diceCoeff = (2.0 * numberOfTruePositives) / (np.sum(predictedBinaryLabels) + numberOfGtPositives) if numberOfGtPositives<>0 else -1 
-    return diceCoeff
     
 # ----- Dice Score -----
 def computeDice(autoSeg, groundTruth):
@@ -58,13 +51,8 @@ def computeDice(autoSeg, groundTruth):
         
         gtArray = np.zeros(autoSeg.size,dtype=np.bool)
         gtArray[idx_GT] = 1
-
         
         dsc = dice(autoArray, gtArray)
-        dsc2 = calculateDiceCoefficient(autoArray, gtArray)
-
-        print(" dsc1: {}").format(dsc)
-        print(" dsc2: {}").format(dsc2)
         
         #dice = np.sum(autoSeg[groundTruth==c_i])*2.0 / (np.sum(autoSeg) + np.sum(groundTruth))
         DiceArray.append(dsc)
