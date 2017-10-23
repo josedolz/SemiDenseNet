@@ -25,7 +25,7 @@ NOTES: There are still some functionalities to be implemented.
     - Add more activation functions
     - Add more optimizers (ex. Adam)
 
-Jose Dolz. Dec, 2017.
+Jose Dolz. Oct, 2017.
 email: jose.dolz.upv@gmail.com
 LIVIA Department, ETS, Montreal.
 """
