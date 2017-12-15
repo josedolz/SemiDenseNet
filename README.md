@@ -15,7 +15,7 @@ NOTE: The submission of this work is under review. If you use this code for your
 
 - Dolz J, Desrosiers C, Ben Ayed I. "[3D fully convolutional networks for subcortical segmentation in MRI: A large-scale study."](http://www.sciencedirect.com/science/article/pii/S1053811917303324) NeuroImage (2017).
 
-- Citation coming.
+- Dolz J, Desrosiers C, Wang L, Yuang J, Shen D, Ben Ayed I. "[Deep CNN ensembles and suggestive annotations for infant brain MRI segmentation]"(https://arxiv.org/pdf/1712.05319.pdf)
 
 The main differences with respect to that network are:
 - The use of multi-modal images (MR-T1 and T2) processed in independent paths.
